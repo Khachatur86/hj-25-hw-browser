@@ -7,6 +7,8 @@
                       'airmax-playground', 
                       'airmax-top-view'];
   let ind = 0;
+  
+  slider.src = `i/${imagesList[0]}.png`;
 
   setInterval(() => {
     slider.src = `i/${imagesList[ind]}.png`;
